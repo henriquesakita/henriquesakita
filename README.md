@@ -73,6 +73,7 @@ interesso por times que valorizam código limpo, dados abertos e aprendizado con
 ## 📫 Contato
 
 - **E-mail:** [henriquesakita@gmail.com](mailto:henriquesakita@gmail.com)
+- **LinkedIn:** [henrique-sakita](https://www.linkedin.com/in/henrique-sakita/)
 - **GitHub:** [@henriquesakita](https://github.com/henriquesakita)
 
 ---
