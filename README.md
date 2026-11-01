@@ -67,9 +67,10 @@ interesso por times que valorizam código limpo, dados abertos e aprendizado con
 
 ## 📚 Formação
 
-- **Ciência de Dados** — em andamento (2º ano)
-- **Análise e Desenvolvimento de Sistemas** — concluído em 2026
-- **Ciências e Biologia** — 12 anos de experiência em sala de aula
+- **Ciência de Dados** — em andamento (2º ano) - Univesp
+- **Análise e Desenvolvimento de Sistemas** — concluído em 2026 - Unimar
+- **Ciências Biológicas** - concluído em 2013 - Unesp/Assis
+- **Professor de Ciências, Biologia, Física e Programação** — 12 anos de experiência em sala de aula
 
 ## 📫 Contato
 
