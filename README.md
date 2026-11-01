@@ -1,4 +1,4 @@
-# Olá, eu sou Henrique Sakita 👋
+# Olá, eu sou Henrique Sakita 
 
 **Dados e educação.** Professor de Ciências e Biologia há 12 anos, em transição para
 ciência de dados. Uso Python, SQL e estatística para transformar dados públicos em
