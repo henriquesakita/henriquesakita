@@ -1,55 +1,74 @@
 # Olá, eu sou Henrique Sakita 👋
 
-**Desenvolvedor de software** — construo aplicações de ponta a ponta, da API ao
-app desktop e mobile.
+**Dados e educação.** Professor de Ciências e Biologia há 12 anos, em transição para
+ciência de dados. Uso Python, SQL e estatística para transformar dados públicos em
+decisões — sem perder de vista as pessoas que estão na sala de aula.
 
-[![Java](https://img.shields.io/badge/Java-21-ED8B00?logo=openjdk&logoColor=white)](https://github.com/henriquesakita?tab=repositories&language=java)
-[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3-6DB33F?logo=springboot&logoColor=white)](https://github.com/henriquesakita/delivery-tech)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)](https://github.com/henriquesakita/fluxo-kanban)
-[![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)](https://github.com/henriquesakita/delivery-tech)
-[![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)](https://github.com/henriquesakita)
+[![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)](https://github.com/henriquesakita?tab=repositories&language=python)
+[![pandas](https://img.shields.io/badge/pandas-150458?logo=pandas&logoColor=white)](https://github.com/henriquesakita/observatorio-educacao)
+[![SQL](https://img.shields.io/badge/SQL-336791?logo=postgresql&logoColor=white)](https://github.com/henriquesakita)
+[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white)](https://github.com/henriquesakita/observatorio-educacao)
+[![Java](https://img.shields.io/badge/Java-21-ED8B00?logo=openjdk&logoColor=white)](https://github.com/henriquesakita/delivery-tech)
 
-## 🚀 Projetos em destaque
+## 🔎 Em destaque
+
+### [Observatório da Educação](https://github.com/henriquesakita/observatorio-educacao)
+
+[![CI](https://github.com/henriquesakita/observatorio-educacao/actions/workflows/ci.yml/badge.svg)](https://github.com/henriquesakita/observatorio-educacao/actions/workflows/ci.yml)
+
+Dashboard que transforma as planilhas públicas do **Ideb municipal** em uma leitura
+navegável da educação básica: **5.570 municípios**, 11 edições (2005–2025) e 281 mil
+registros tratados. O pipeline baixa os dados do INEP, limpa o cabeçalho composto com
+pandas e entrega séries, rankings e comparações por etapa, rede e território.
+
+`Python` `pandas` `Streamlit` `Plotly` `pytest` `GitHub Actions`
+
+<img src="https://raw.githubusercontent.com/henriquesakita/observatorio-educacao/main/docs/dashboard.png" width="640" alt="Dashboard do Observatório da Educação">
+
+## 🧪 Também construí
+
+### [Delivery Tech API](https://github.com/henriquesakita/delivery-tech)
+
+[![CI](https://github.com/henriquesakita/delivery-tech/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/henriquesakita/delivery-tech/actions/workflows/ci-cd.yml)
+
+API REST de um marketplace de delivery, com autenticação **JWT**, CRUD de clientes,
+restaurantes, produtos e pedidos, relatórios, Swagger, Actuator com Prometheus e
+imagem Docker distroless.
+
+`Java 21` `Spring Boot` `Spring Security` `JPA` `Docker` `MySQL`
 
 ### [Fluxo — Kanban para desktop e Android](https://github.com/henriquesakita/fluxo-kanban)
 
 [![Demo](https://img.shields.io/badge/▶_testar_demo-7c5cff?style=for-the-badge)](https://henriquesakita.github.io/fluxo-kanban/)
 [![Release](https://img.shields.io/badge/⬇_baixar-3fb950?style=for-the-badge)](https://github.com/henriquesakita/fluxo-kanban/releases/latest)
 
-Quadro Kanban offline em que **o mesmo código web roda no navegador, no Windows,
-no Linux e no Android**. Tem arrastar e soltar com mouse e toque, múltiplos
-quadros, prazos, checklist, busca e exportação em JSON.
+Quadro Kanban offline em que **o mesmo código web roda no navegador, no Windows, no
+Linux e no Android**. Tem arrastar e soltar com mouse e toque, múltiplos quadros,
+prazos, checklist, busca e exportação em JSON.
 
 `JavaScript` `Electron` `Capacitor` `GitHub Actions` `GitHub Pages`
-
-<img src="https://raw.githubusercontent.com/henriquesakita/fluxo-kanban/main/docs/fluxo-desktop.png" width="560" alt="Tela do Fluxo">
-
-### [Delivery Tech API](https://github.com/henriquesakita/delivery-tech)
-
-[![CI](https://github.com/henriquesakita/delivery-tech/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/henriquesakita/delivery-tech/actions/workflows/ci-cd.yml)
-
-API REST de um marketplace de delivery, com autenticação **JWT**, CRUD de
-clientes, restaurantes, produtos e pedidos, relatórios, Swagger, Actuator com
-Prometheus e imagem Docker distroless.
-
-`Java 21` `Spring Boot` `Spring Security` `JPA` `Docker` `MySQL`
-
-[Ver código e documentação](https://github.com/henriquesakita/delivery-tech)
 
 ## 🧰 Ferramentas
 
 | Área | O que uso |
 | --- | --- |
-| Back-end | Java 21, Spring Boot, Spring Security, JWT, JPA/Hibernate, Maven |
-| Front-end | HTML, CSS, JavaScript, DOM e Pointer Events |
-| Mobile e desktop | Capacitor, Android, Electron |
-| Dados e infra | MySQL, H2, Docker, GitHub Actions |
-| Práticas | Git, DTOs, Bean Validation, testes, CI/CD, documentação com OpenAPI |
+| Dados | Python, pandas, NumPy, SQL, estatística descritiva, limpeza e modelagem de dados |
+| Visualização | Streamlit, Plotly, Matplotlib |
+| Educação | Ideb, Saeb, Censo Escolar, indicadores educacionais |
+| Engenharia | Java 21, Spring Boot, JavaScript, Docker, Git, CI/CD |
+| Em estudo | scikit-learn, machine learning, SHAP, Power BI |
 
 ## 🎯 O que procuro
 
-Oportunidades como desenvolvedor **back-end**, **full-stack** ou **mobile**, em
-times que valorizam código limpo, testes e aprendizado contínuo.
+Oportunidades em **análise de dados**, **ciência de dados**, **BI** ou **engenharia de
+dados** — especialmente em educação, impacto social e setor público. Também me
+interesso por times que valorizam código limpo, dados abertos e aprendizado contínuo.
+
+## 📚 Formação
+
+- **Ciência de Dados** — em andamento (2º ano)
+- **Análise e Desenvolvimento de Sistemas** — concluído em 2026
+- **Ciências e Biologia** — 12 anos de experiência em sala de aula
 
 ## 📫 Contato
 
@@ -58,4 +77,5 @@ times que valorizam código limpo, testes e aprendizado contínuo.
 
 ---
 
-<sub>Este perfil é um retrato do que estou construindo. O código está aberto — fique à vontade para explorar, abrir issues ou trocar ideia.</sub>
+<sub>Este perfil é um retrato do que estou construindo. O código está aberto — fique à
+vontade para explorar, abrir issues ou trocar ideia.</sub>
