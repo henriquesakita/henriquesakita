@@ -14,7 +14,7 @@ decisões — sem perder de vista as pessoas que estão na sala de aula.
 
 ### [Observatório da Educação](https://github.com/henriquesakita/observatorio-educacao)
 
-[![Demo](https://img.shields.io/badge/▶_abrir_painel-0d9488?style=for-the-badge)](https://observatorio-educacao-ebxjkkb9icbfot8bakeedj.streamlit.app/)
+[![Demo](https://img.shields.io/badge/▶_abrir_painel-0d9488?style=for-the-badge)](https://observatorio-educacao.streamlit.app/)
 [![CI](https://github.com/henriquesakita/observatorio-educacao/actions/workflows/ci.yml/badge.svg)](https://github.com/henriquesakita/observatorio-educacao/actions/workflows/ci.yml)
 
 Dashboard que transforma as planilhas públicas do **Ideb municipal** em uma leitura
