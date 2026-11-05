@@ -1,51 +1,73 @@
 # Henrique Sakita
 
-Professor de Ciências e Biologia há 12 anos e estudante de Ciência de Dados. Uso Python, SQL e estatística para investigar dados públicos de educação e publicar o resultado em painéis que qualquer pessoa consegue abrir no navegador.
+**Análise e ciência de dados | Python, SQL e estatística | Educação pública**
 
-Aprendi a programar resolvendo problemas da escola: planilhas de notas, dados do Ideb, comparações entre municípios. Isso virou método. Hoje construo pipelines que baixam os dados na fonte, limpam, documentam e viram visualizações.
+Professor de Ciências e Biologia por 12 anos, agora migrando para dados. Construo pipelines e painéis que começam em bases públicas brutas e terminam em uma página que qualquer pessoa consegue usar. Meu foco é educação, mas o método serve para qualquer base.
+
+A sala de aula me ensinou a explicar o que os números significam para quem não trabalha com números. Levo isso para as análises, os relatórios e as apresentações.
+
+## O que eu entrego
+
+- Pipeline completo: coleta, limpeza, validação, análise, visualização e publicação.
+- Domínio de dados educacionais: Ideb, Saeb, Censo Escolar e Provão Paulista.
+- Código documentado e testado, com CI e deploy automatizado.
+- Comunicação com público não técnico, herdada de 12 anos de sala de aula.
 
 ## Projetos
 
 ### Observatório da Educação
 
-Painel do Ideb municipal com 5.570 municípios, 11 edições (2005 a 2025) e cerca de 281 mil registros. O pipeline baixa os arquivos do Inep, organiza o cabeçalho composto com pandas e monta séries, rankings e comparações por etapa, rede e território.
+**5.570 municípios, 11 edições do Ideb (2005 a 2025) e 281 mil registros.**
+
+Pipeline em Python que baixa os arquivos do Inep, organiza o cabeçalho composto com pandas e publica séries, rankings e comparações por etapa, rede e território.
 
 [Abrir o painel](https://observatorio-educacao.streamlit.app/) · [Código](https://github.com/henriquesakita/observatorio-educacao)
 
 ### Provão em Foco
 
-Leitura dos cadernos do Provão Paulista Seriado de 2023 a 2025: 810 questões classificadas por tema, banco de consulta, simulado com questões reais e as vagas das universidades públicas paulistas para 2027. O simulado deixa de fora os itens que dependem de imagem, gráfico ou tabela do caderno.
+**810 questões do Provão Paulista (2023 a 2025) e 13.739 vagas para 2027.**
+
+Painel com banco de questões, simulado e análise dos temas mais recorrentes. O simulado exclui os itens que dependem de imagem, gráfico ou tabela do caderno.
 
 [Abrir o painel](https://provao-em-foco.streamlit.app/) · [Código](https://github.com/henriquesakita/provao-em-foco)
 
 ### Delivery Tech API
 
-API REST de um marketplace de delivery em Java 21 e Spring Boot, com autenticação JWT, CRUD de clientes, restaurantes, produtos e pedidos, relatórios, Swagger, Actuator com Prometheus e imagem Docker distroless.
+**API REST com autenticação JWT, Swagger, métricas e Docker.**
+
+Marketplace de delivery em Java 21 e Spring Boot, com CRUD de clientes, restaurantes, produtos e pedidos, relatórios e pipeline de CI/CD.
 
 [Código](https://github.com/henriquesakita/delivery-tech)
 
 ### Fluxo
 
-Quadro Kanban offline em que o mesmo código web roda no navegador, no Windows, no Linux e no Android. Tem arrastar e soltar com mouse e toque, múltiplos quadros, prazos, checklist, busca e exportação em JSON.
+**Um código, quatro plataformas: navegador, Windows, Linux e Android.**
+
+Quadro Kanban offline com arrastar e soltar, múltiplos quadros, prazos, checklist, busca e exportação em JSON.
 
 [Testar no navegador](https://henriquesakita.github.io/fluxo-kanban/) · [Baixar](https://github.com/henriquesakita/fluxo-kanban/releases/latest)
 
-## Ferramentas
+## Stack
 
-No dia a dia: Python, pandas e NumPy para tratamento de dados; SQL quando a base mora em banco; Streamlit e Plotly para publicar; Java 21 e Spring Boot quando o projeto pede uma API; Docker, Git e GitHub Actions para empacotar e entregar.
+**Dados:** Python, pandas, NumPy, SQL, estatística descritiva, limpeza e modelagem.
 
-Também trabalho com indicadores educacionais (Ideb, Saeb, Censo Escolar) e estou estudando scikit-learn, machine learning, SHAP e Power BI.
+**Visualização:** Streamlit, Plotly, Matplotlib.
+
+**Engenharia:** Java 21, Spring Boot, JavaScript, Docker, Git, GitHub Actions.
+
+**Em estudo:** scikit-learn, machine learning, SHAP, Power BI.
 
 ## Formação
 
 - Ciência de Dados, Univesp (em andamento, 2º ano)
 - Análise e Desenvolvimento de Sistemas, Unimar (concluído em 2026)
 - Ciências Biológicas, Unesp/Assis (concluído em 2013)
-- Professor de Ciências, Biologia, Física e Programação (12 anos de sala de aula)
 
 ## O que procuro
 
-Oportunidades em análise de dados, ciência de dados, BI ou engenharia de dados. Tenho preferência por projetos ligados a educação, impacto social e setor público, mas também me interesso por times que documentam o que fazem e tratam dados abertos como infraestrutura, não como enfeite.
+Vagas em análise de dados, ciência de dados, BI ou engenharia de dados. Tenho preferência por educação, impacto social e setor público, mas o que mais me interessa é resolver problemas com dados em um time que documenta o que faz.
+
+Base em Presidente Prudente (SP).
 
 ## Contato
 
@@ -53,4 +75,4 @@ Oportunidades em análise de dados, ciência de dados, BI ou engenharia de dados
 - LinkedIn: [henrique-sakita](https://www.linkedin.com/in/henrique-sakita/)
 - GitHub: [@henriquesakita](https://github.com/henriquesakita)
 
-Se algum projeto fizer sentido para o que você faz, me chama.
+Se você tem uma vaga ou quer trocar ideia sobre dados e educação, me chama.
