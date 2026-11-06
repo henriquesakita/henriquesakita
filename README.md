@@ -17,7 +17,7 @@ A sala de aula me ensinou a explicar o que os números significam para quem não
 
 ### Observatório da Educação
 
-**5.570 municípios, 11 edições do Ideb (2005 a 2025) e 281 mil registros.**
+**5.571 municípios, 11 edições do Ideb (2005 a 2025) e 339 mil registros.**
 
 Pipeline em Python que baixa os arquivos do Inep, organiza o cabeçalho composto com pandas e publica séries, rankings e comparações por etapa, rede e território.
 
